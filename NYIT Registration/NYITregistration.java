@@ -4,9 +4,9 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
- *
  * @author Raj
  */
+
 public class NYITregistration 
 {
 
@@ -22,9 +22,7 @@ public class NYITregistration
              + " \n\nTo begin applying for NYIT, click \"ok\" and follow instructions");
          
          boolean done = false;
-         
-        // while(!done)
-         //{
+        
              int input = Integer.parseInt( JOptionPane.showInputDialog( " Hello!, This screen helps you enroll new students into NYIT"
                  + " \n\nNew Undergraduate  =   Enter \" 1 \""
                  + "\n New Graduate             =   Enter \" 2 \""
@@ -78,8 +76,7 @@ public class NYITregistration
 		{
 			p.writeOutput();		//modified for GUI style O/P
 			System.out.println();
-		}
-	//}                      
+		}                    
 }
         
         static void prompt()
