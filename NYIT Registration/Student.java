@@ -6,7 +6,6 @@
 package nyitregistration;
 
 /**
- *
  * @author Raj
  */
 public class Student extends Person
