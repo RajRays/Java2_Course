@@ -1,9 +1,10 @@
 package nyitregistration;
 import javax.swing.JOptionPane;
+
 /**
- *
  * @author Raj
  */
+
 public class underGraduate extends Student
 {
     
